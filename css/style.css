@@ -209,6 +209,9 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
 }
+.content .leftside__title span {
+  color: #8669ff;
+}
 .content .leftside__description {
   font-size: 16px;
   line-height: 28px;
