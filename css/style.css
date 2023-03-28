@@ -243,6 +243,7 @@ body {
   text-align: center;
   color: #c9d9db;
   max-width: 680px;
+  animation: fadeIn 2s ease;
 }
 .content.center .captcha_wrapper {
   margin-top: 30px;
