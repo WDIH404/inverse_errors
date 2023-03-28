@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  margin-bottom: 224px;
+  &.center {
+    justify-content: center;
+  }
+  &__logo {
+    cursor: pointer;
+  }
+}
