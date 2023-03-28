@@ -36,13 +36,21 @@ body {
   -moz-border-image: -moz-linear-gradient(#8c5eff, #11c9ff);
   -webkit-border-image: -webkit-linear-gradient(#8c5eff, #11c9ff);
   border-image-slice: 1;
-  min-height: 99vh;
+  min-height: 100vh;
+  position: relative;
 }
 
 .container {
   max-width: 1384px;
-  margin: 0 auto;
-  margin-top: 72px;
+  margin: 72px auto;
+  &.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 86vh;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .button {
@@ -59,5 +67,11 @@ body {
   transition: all 0.2s ease-in-out;
   &:hover {
     opacity: 0.6;
+  }
+}
+
+@media (max-width: 1240px) {
+  .container {
+    padding: 0 30px;
   }
 }
